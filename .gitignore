@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+
+# Uploaded test images from web app
+static/uploads/*
+!static/uploads/.gitkeep
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Large raw datasets (optional, uncomment if repo size is too large)
+# dataset/
